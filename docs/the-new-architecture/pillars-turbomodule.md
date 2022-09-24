@@ -80,7 +80,7 @@ export default (TurboModuleRegistry.get<Spec>(
 <TabItem value="typescript">
 
 ```typescript title="NativeCalculator.ts"
-import type { TurboModule } from 'react-native/Libraries/TurboModule/RCTExport';
+import type { TurboModule } from 'react-native';
 import { TurboModuleRegistry } from 'react-native';
 
 export interface Spec extends TurboModule {
